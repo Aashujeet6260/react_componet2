@@ -9,6 +9,7 @@ lerna-debug.log*
 # Build outputs
 dist/
 build/
+out/
 
 *.tsbuildinfo
 
@@ -88,10 +89,8 @@ jspm_packages/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Storybook build outputs
-.out
 .storybook-out
 
 # Temporary folders
@@ -107,10 +106,8 @@ temp/
 # TypeScript
 *.tsbuildinfo
 
-# Testing
-coverage/
-.nyc_output/
+# Vercel
+.vercel
 
 # Misc
-*.tgz
 *.tar.gz
